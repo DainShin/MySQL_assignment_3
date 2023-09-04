@@ -1,14 +1,6 @@
 /* 
 Assignment 3 Part 2
 Date: July 19, 2023
-
-Group Member			Student Number
-John Gu					200327450
-Matthew Antonis 		200373088
-Dain Shin 				200535561
-Emily Rose 				200553504
-Karsten Leung			200547539	
-
 */
 
 -- Part 2
@@ -75,7 +67,7 @@ VALUES
     ('Seeds of change', 'Tree planting ');
     
 
--- Inser data into payment_information
+-- Insert data into payment_information
 INSERT INTO payment_information (donor_id, credit_card_type, card_number, expiry_date, cvv)
 VALUES
 	(1, 'VISA', '4532462633596383', '01/2025', '672'),
